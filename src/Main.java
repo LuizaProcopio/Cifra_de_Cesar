@@ -8,7 +8,7 @@ public class Main {
         System.out.println("Escreva a frase que será criptografada: ");
         String inputText = scanner.nextLine();
 
-        System.out.println("Escreve o numero de espaço (0-25): ");
+        System.out.println("Escreve o numero do deslocamento letras do alfabeto (0-25): ");
         int shiftKey = scanner.nextInt();
 
         String encrypted = Encrypt.encrypt(inputText, shiftKey);
